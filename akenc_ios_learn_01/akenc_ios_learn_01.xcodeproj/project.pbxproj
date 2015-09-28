@@ -10,9 +10,7 @@
 		E439F2731BB8DFF0003904B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F2721BB8DFF0003904B9 /* main.m */; };
 		E439F2761BB8DFF0003904B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F2751BB8DFF0003904B9 /* AppDelegate.m */; };
 		E439F2791BB8DFF0003904B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F2781BB8DFF0003904B9 /* ViewController.m */; };
-		E439F27C1BB8DFF0003904B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439F27A1BB8DFF0003904B9 /* Main.storyboard */; };
 		E439F27E1BB8DFF0003904B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E439F27D1BB8DFF0003904B9 /* Assets.xcassets */; };
-		E439F2811BB8DFF0003904B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439F27F1BB8DFF0003904B9 /* LaunchScreen.storyboard */; };
 		E439F28C1BB8DFF1003904B9 /* akenc_ios_learn_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F28B1BB8DFF1003904B9 /* akenc_ios_learn_01Tests.m */; };
 		E439F2971BB8DFF1003904B9 /* akenc_ios_learn_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F2961BB8DFF1003904B9 /* akenc_ios_learn_01UITests.m */; };
 /* End PBXBuildFile section */
@@ -41,9 +39,7 @@
 		E439F2751BB8DFF0003904B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E439F2771BB8DFF0003904B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E439F2781BB8DFF0003904B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E439F27B1BB8DFF0003904B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E439F27D1BB8DFF0003904B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E439F2801BB8DFF0003904B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E439F2821BB8DFF0003904B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E439F2871BB8DFF1003904B9 /* akenc_ios_learn_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = akenc_ios_learn_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E439F28B1BB8DFF1003904B9 /* akenc_ios_learn_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = akenc_ios_learn_01Tests.m; sourceTree = "<group>"; };
@@ -105,9 +101,7 @@
 				E439F2751BB8DFF0003904B9 /* AppDelegate.m */,
 				E439F2771BB8DFF0003904B9 /* ViewController.h */,
 				E439F2781BB8DFF0003904B9 /* ViewController.m */,
-				E439F27A1BB8DFF0003904B9 /* Main.storyboard */,
 				E439F27D1BB8DFF0003904B9 /* Assets.xcassets */,
-				E439F27F1BB8DFF0003904B9 /* LaunchScreen.storyboard */,
 				E439F2821BB8DFF0003904B9 /* Info.plist */,
 				E439F2711BB8DFF0003904B9 /* Supporting Files */,
 			);
@@ -243,9 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E439F2811BB8DFF0003904B9 /* LaunchScreen.storyboard in Resources */,
 				E439F27E1BB8DFF0003904B9 /* Assets.xcassets in Resources */,
-				E439F27C1BB8DFF0003904B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +298,6 @@
 			targetProxy = E439F2931BB8DFF1003904B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E439F27A1BB8DFF0003904B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E439F27B1BB8DFF0003904B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E439F27F1BB8DFF0003904B9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E439F2801BB8DFF0003904B9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E439F2991BB8DFF1003904B9 /* Debug */ = {
